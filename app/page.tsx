@@ -1,3 +1,5 @@
+import { getStories } from '@/lib/sanity.queries'
+import { urlFor } from '@/lib/sanity.image'
 import Link from "next/link";
 
 export default function Home() {
